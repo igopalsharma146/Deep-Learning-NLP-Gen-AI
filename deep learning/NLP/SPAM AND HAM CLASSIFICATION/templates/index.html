@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Identifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <h1>Stop Spam in Its Tracks</h1> -->
+        <p>Enter your email content below to check if it's spam:</p>
+        <form action="{{ url_for('predict') }}" method="post" id="spam-form">
+            <textarea id="email-content" name="mesg" rows="10" cols="50" placeholder="Paste your email content here..."></textarea>
+            <button type="submit">Check for Spam</button>
+            <div id="result"></div> </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

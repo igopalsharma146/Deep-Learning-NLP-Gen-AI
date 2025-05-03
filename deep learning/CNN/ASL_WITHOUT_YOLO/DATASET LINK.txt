@@ -1,0 +1,1 @@
+https://www.kaggle.com/code/alfathterry/american-sign-language-real-time-detection/input?select=ASL_Dataset
